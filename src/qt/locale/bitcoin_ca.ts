@@ -821,8 +821,8 @@
         <translation>Com és la primera vegada que s'executa el programa, podeu triar on %1 emmagatzemarà les dades.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Quan feu clic a D'acord, %1 començarà a descarregar i processar la cadena de blocs %4 completa (%2 GB) començant per les primeres transaccions de %3, any de llençament inicial de %4.</translation>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation>Quan feu clic a D'acord, %1 començarà a descarregar i processar la cadena de blocs %4 completa (%2 MB) començant per les primeres transaccions de %3, any de llençament inicial de %4.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
@@ -845,12 +845,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Almenys %1 GB de dades s'emmagatzemaran en aquest directori, i creixerà amb el temps.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Almenys %1 MB de dades s'emmagatzemaran en aquest directori, i creixerà amb el temps.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Aproximadament %1 GB de dades s'emmagatzemaran en aquest directori.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Aproximadament %1 MB de dades s'emmagatzemaran en aquest directori.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -1454,8 +1454,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3119,8 +3119,8 @@ Nota: Com que la comissió es calcula en funció dels bytes, una comissió de "1
         <translation>%s està malmès, el rescat de les dades ha fallat</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool ha de tenir almenys %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool ha de tenir almenys %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

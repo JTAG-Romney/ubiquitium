@@ -857,12 +857,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Environ %1 GB de données seront stockées dans ce répertoire, et cela augmentera au cours du temps.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Environ %1 MB de données seront stockées dans ce répertoire, et cela augmentera au cours du temps.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Environ %1 GB de données seront stockées dans ce répertoire.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Environ %1 MB de données seront stockées dans ce répertoire.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1190,7 +1190,7 @@
         <translation>%1 KO</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 MO</translation>
     </message>
     <message>

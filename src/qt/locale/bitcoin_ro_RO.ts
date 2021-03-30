@@ -825,7 +825,7 @@
         <translation>Deoarece este prima lansare a programului poți alege unde %1 va stoca datele sale.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Cand apasati OK, %1 va incepe descarcarea si procesarea intregului %4 blockchain (%2GB) incepand cu cele mai vechi tranzactii din %3 de la lansarea initiala a %4.</translation>
     </message>
     <message>
@@ -849,12 +849,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>Cel putin %1GB de date vor fi stocate in acest director, si aceasta valoare va creste in timp.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Aproximativ %1 GB de date vor fi stocate in acest director.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Aproximativ %1 MB de date vor fi stocate in acest director.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -874,11 +874,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de spaţiu liber disponibil</numerusform><numerusform>%n GB de spaţiu liber disponibil</numerusform><numerusform>%n GB de spaţiu liber disponibil</numerusform></translation>
+        <translation><numerusform>%n MB de spaţiu liber disponibil</numerusform><numerusform>%n MB de spaţiu liber disponibil</numerusform><numerusform>%n MB de spaţiu liber disponibil</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(din %n GB necesar)</numerusform><numerusform>(din %n GB necesari)</numerusform><numerusform>(din %n GB necesari)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(din %n MB necesar)</numerusform><numerusform>(din %n MB necesari)</numerusform><numerusform>(din %n MB necesari)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1490,8 +1490,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3203,8 +3203,8 @@ Nota: Cum taxa este calculata per byte, o taxa de "100 satoshi per kB" pentru o 
         <translation>%s corupt, salvare nereuşită</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool trebuie sa fie macar %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool trebuie sa fie macar %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

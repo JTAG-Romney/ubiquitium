@@ -881,8 +881,8 @@
         <translation>Tohle je poprvé, co spouštíš %1, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>Jakmile stiskneš OK, %1 začne stahovat a zpracovávat celý %4ový blockchain (%2 GB), počínaje nejstaršími transakcemi z roku %3, kdy byl %4 spuštěn.</translation>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation>Jakmile stiskneš OK, %1 začne stahovat a zpracovávat celý %4ový blockchain (%2 MB), počínaje nejstaršími transakcemi z roku %3, kdy byl %4 spuštěn.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
@@ -905,12 +905,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Bude proto potřebovat do tohoto adresáře uložit nejméně %1 GB dat – tohle číslo navíc bude v průběhu času růst.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Bude proto potřebovat do tohoto adresáře uložit nejméně %1 MB dat – tohle číslo navíc bude v průběhu času růst.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Bude proto potřebovat do tohoto adresáře uložit přibližně %1 GB dat.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Bude proto potřebovat do tohoto adresáře uložit přibližně %1 MB dat.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -930,11 +930,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB volného místa</numerusform><numerusform>%n GB volného místa</numerusform><numerusform>%n GB volného místa</numerusform><numerusform>%n GB volného místa</numerusform></translation>
+        <translation><numerusform>%n MB volného místa</numerusform><numerusform>%n MB volného místa</numerusform><numerusform>%n MB volného místa</numerusform><numerusform>%n MB volného místa</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(z potřebného %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(z potřebného %n MB)</numerusform><numerusform>(z potřebných %n MB)</numerusform><numerusform>(z potřebných %n MB)</numerusform><numerusform>(z potřebných %n MB)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1566,8 +1566,8 @@
         <translation>%1 kB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3319,8 +3319,8 @@ Poznámka: Jelikož je poplatek počítaný za bajt, poplatek o hodnotě "100 sa
         <translation>%s je poškozen, jeho záchrana se nezdařila</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool musí být alespoň %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool musí být alespoň %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

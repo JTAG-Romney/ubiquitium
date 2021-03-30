@@ -841,8 +841,8 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Yaklaşık %1 GB veri bu dizinde depolanacak.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Yaklaşık %1 MB veri bu dizinde depolanacak.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -858,11 +858,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB boş alan mevcuttur</numerusform><numerusform>%n GB boş alan mevcuttur</numerusform></translation>
+        <translation><numerusform>%n MB boş alan mevcuttur</numerusform><numerusform>%n MB boş alan mevcuttur</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(gereken %n GB alandan)</numerusform><numerusform>(gereken %n GB alandan)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(gereken %n MB alandan)</numerusform><numerusform>(gereken %n MB alandan)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1474,8 +1474,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3131,7 +3131,7 @@
         <translation>%s bozuk, geri kazanım başarısız oldu</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
+        <source>-maxmempool must be at least %d GB</source>
         <translation>-maxmempool en az %d MB olmalıdır</translation>
     </message>
     <message>

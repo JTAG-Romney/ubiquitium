@@ -617,8 +617,8 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Cel puțin %1 GB va fi stocat în acest folder și va crește în timp.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Cel puțin %1 MB va fi stocat în acest folder și va crește în timp.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -634,7 +634,7 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform><numerusform>%n GB de spațiu liber disponibil</numerusform></translation>
+        <translation><numerusform>%n MB de spațiu liber disponibil</numerusform><numerusform>%n MB de spațiu liber disponibil</numerusform><numerusform>%n MB de spațiu liber disponibil</numerusform></translation>
     </message>
     </context>
 <context>
@@ -830,8 +830,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>

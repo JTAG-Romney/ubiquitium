@@ -880,7 +880,7 @@
         <translation>Al ser la primera vez que se ejecuta el programa, puede elegir dónde %1 almacenará sus datos.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Cuando haga click en OK, %1 se empezará a descargar la %4 cadena de bloques completa (%2GB) empezando por la transacción más antigua en %3 cuando se publicó %4 originalmente.</translation>
     </message>
     <message>
@@ -904,12 +904,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Se almacenará cuanto menos %1 GB de datos en este directorio, y crecerá con el transcurso del tiempo.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Se almacenará cuanto menos %1 MB de datos en este directorio, y crecerá con el transcurso del tiempo.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Se almacenará aproximadamente %1 GB de datos en este directorio.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Se almacenará aproximadamente %1 MB de datos en este directorio.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -929,11 +929,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de espacio libre</numerusform><numerusform>%n GB de espacio disponible</numerusform></translation>
+        <translation><numerusform>%n MB de espacio libre</numerusform><numerusform>%n MB de espacio disponible</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(de %n GB necesitados)</numerusform><numerusform>(de %n GB requeridos)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(de %n MB necesitados)</numerusform><numerusform>(de %n MB requeridos)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1565,8 +1565,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3318,8 +3318,8 @@ Nota: Dado que la comisión se calcula por byte, una comisión de "100 satoshis 
         <translation>%s corrupto. Fracasó la recuperacion</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool debe ser por lo menos de %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool debe ser por lo menos de %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

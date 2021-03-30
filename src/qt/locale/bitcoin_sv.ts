@@ -882,8 +882,8 @@ Försök igen.</translation>
         <translation>Eftersom detta är första gången som programmet startas får du välja var %1 skall lagra sina data.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>När du trycker OK kommer %1 att börja ladda ner och bearbeta den fullständiga %4-blockkedjan (%2 GB), med början vid de första transaktionerna %3 när %4 först lanserades.</translation>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation>När du trycker OK kommer %1 att börja ladda ner och bearbeta den fullständiga %4-blockkedjan (%2 MB), med början vid de första transaktionerna %3 när %4 först lanserades.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
@@ -906,12 +906,12 @@ Försök igen.</translation>
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Minst %1 GB data kommer att sparas i den här katalogen, och de växer över tiden.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Minst %1 MB data kommer att sparas i den här katalogen, och de växer över tiden.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Ungefär %1 MB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -931,11 +931,11 @@ Försök igen.</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB fritt utrymme kvar</numerusform><numerusform>%n GB fritt utrymme kvar</numerusform></translation>
+        <translation><numerusform>%n MB fritt utrymme kvar</numerusform><numerusform>%n MB fritt utrymme kvar</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(av %n GB behövs)</numerusform><numerusform>(av %n GB behövs)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(av %n MB behövs)</numerusform><numerusform>(av %n MB behövs)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1567,8 +1567,8 @@ Försök igen.</translation>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3320,8 +3320,8 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>%s är korrupt, räddning misslyckades</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool måste vara minst %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool måste vara minst %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

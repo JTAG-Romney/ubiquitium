@@ -824,7 +824,7 @@
         <translation>Kako je ovo prvi put da je ova aplikacija pokrenuta, možete izabrati gdje će %1 spremati svoje podatke.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Kada kliknete OK, %1 počet će preuzimati i procesirati cijeli lanac blokova (%2GB) počevši s najranijim transakcijama u %3 kad je %4 prvi put pokrenut.</translation>
     </message>
     <message>
@@ -848,12 +848,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Bit će spremljeno barem %1 GB podataka u ovoj mapi te će se povećati tijekom vremena.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Bit će spremljeno barem %1 MB podataka u ovoj mapi te će se povećati tijekom vremena.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Otprilike %1 GB podataka bit će spremljeno u ovoj mapi.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Otprilike %1 MB podataka bit će spremljeno u ovoj mapi.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -873,7 +873,7 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>Dostupno %n GB slobodnog prostora</numerusform><numerusform>Dostupno %n GB slobodnog prostora</numerusform><numerusform>Dostupno %n GB slobodnog prostora</numerusform></translation>
+        <translation><numerusform>Dostupno %n MB slobodnog prostora</numerusform><numerusform>Dostupno %n MB slobodnog prostora</numerusform><numerusform>Dostupno %n MB slobodnog prostora</numerusform></translation>
     </message>
     </context>
 <context>
@@ -1485,8 +1485,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3198,8 +3198,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>%s pokvaren, spašavanje neuspješno</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool mora biti barem %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool mora biti barem %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

@@ -881,7 +881,7 @@
         <translation>Kadangi tai yra pirmas kartas, kai programa paleidžiama, galite pasirinkti, kur %1 išsaugos savo duomenis.</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>Spustelėjus Gerai, %1 pradės atsisiųsti ir apdoroti visą %4 blokų grandinę (%2GB), pradedant nuo ankstesnių operacijų %3, kai iš pradžių buvo paleista %4.</translation>
     </message>
     <message>
@@ -905,12 +905,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Šiame kataloge bus saugomi bent %1 GB duomenų, kurie laikui bėgant didės.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Šiame kataloge bus saugomi bent %1 MB duomenų, kurie laikui bėgant didės.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Šiame kataloge bus saugoma maždaug apie %1 GB duomenų.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Šiame kataloge bus saugoma maždaug apie %1 MB duomenų.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -930,11 +930,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB laisvos vietos</numerusform><numerusform>%n GB laisvos vietos</numerusform><numerusform>%n GB laisvos vietos</numerusform><numerusform>%n GB laisvos vietos</numerusform></translation>
+        <translation><numerusform>%n MB laisvos vietos</numerusform><numerusform>%n MB laisvos vietos</numerusform><numerusform>%n MB laisvos vietos</numerusform><numerusform>%n MB laisvos vietos</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(reikalinga %n GB)</numerusform><numerusform>(reikalinga %n GB)</numerusform><numerusform>(reikalinga %n GB)</numerusform><numerusform>(reikalinga %n GB)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(reikalinga %n MB)</numerusform><numerusform>(reikalinga %n MB)</numerusform><numerusform>(reikalinga %n MB)</numerusform><numerusform>(reikalinga %n MB)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1562,8 +1562,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -3179,8 +3179,8 @@ Pastaba: Kadangi mokestis apskaičiuojamas pagal baitą, mokestis už „100 sat
         <translation>%s sugadintas, išgelbėjimas nepavyko</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool turi būti bent %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool turi būti bent %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

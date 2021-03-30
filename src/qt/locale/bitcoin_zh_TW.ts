@@ -865,7 +865,7 @@
         <translation>因為這是程式第一次啓動，你可以選擇 %1 儲存資料的地方。</translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>在你按下「好」之後，%1 就會開始下載並處理整個 %4 區塊鏈(大小是  %2GB)，也就是從 %3 年 %4 剛剛起步時的最初交易開始。</translation>
     </message>
     <message>
@@ -889,12 +889,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>在這個目錄中至少會存放 %1 GB 的資料，並且還會隨時間增加。</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>在這個目錄中至少會存放 %1 MB 的資料，並且還會隨時間增加。</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>在這個目錄中大約會存放 %1 GB 的資料。</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>在這個目錄中大約會存放 %1 MB 的資料。</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -914,11 +914,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>可用空間尚存 %n GB</numerusform></translation>
+        <translation><numerusform>可用空間尚存 %n MB</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(需要 %n GB)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(需要 %n MB)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1079,7 +1079,7 @@
     </message>
     <message>
         <source>GB</source>
-        <translation>GB (十億位元組)</translation>
+        <translation>MB (十億位元組)</translation>
     </message>
     <message>
         <source>Reverting this setting requires re-downloading the entire blockchain.</source>
@@ -1534,12 +1534,12 @@
         <translation>%1 KB (千位元組)</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 MB (百萬位元組)</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB (十億位元組)</translation>
+        <translation>%1 MB (十億位元組)</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
@@ -3263,7 +3263,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>錢包檔 %s 壞掉了，搶救失敗</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
+        <source>-maxmempool must be at least %d GB</source>
         <translation>參數 -maxmempool 至少要給 %d 百萬位元組(MB)</translation>
     </message>
     <message>

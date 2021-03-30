@@ -858,11 +858,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB de espacio libre</numerusform><numerusform>%n GB de espacio disponible</numerusform></translation>
+        <translation><numerusform>%n MB de espacio libre</numerusform><numerusform>%n MB de espacio disponible</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(de %n GB necesitados)</numerusform><numerusform>(de %n GB requeridos)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(de %n MB necesitados)</numerusform><numerusform>(de %n MB requeridos)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1382,8 +1382,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>
@@ -2891,8 +2891,8 @@
         <translation>%s corrupto. Fracasó la recuperacion</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool debe ser por lo menos de %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool debe ser por lo menos de %d GB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>

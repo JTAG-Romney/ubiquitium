@@ -91,10 +91,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000729d31be07251f");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xe585b4ae9b62f5c9cb5ceaf8c758c761d6a49fe0b9a2d482773dd2e9bb36cd7f");
+        consensus.defaultAssumeValid = uint256S("0xdc3ecb790c5554c8c8a2c219933d54a28c563aa2a9cf78978bd8c532cd9be24b");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -107,8 +107,8 @@ public:
         pchMessageStart[3] = 0x3a; // Q
         nDefaultPort = 2390;
         nPruneAfterHeight = 100000;
-        m_assumed_blockchain_size = 22;
-        m_assumed_chain_state_size = 3;
+        m_assumed_blockchain_size = 167;
+        m_assumed_chain_state_size = 1;
 
         genesis = CreateGenesisBlock(1610666666, 920384, 0x1e0ffff0, 1, 100 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
@@ -120,7 +120,8 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        // vSeeds.emplace_back("45.63.6.100");
+        vSeeds.emplace_back("45.63.6.100");
+        vSeeds.emplace_back("140.82.40.228");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,130);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,68);
@@ -140,14 +141,15 @@ public:
         checkpointData = {
             {
                 {  0, uint256S("0xe585b4ae9b62f5c9cb5ceaf8c758c761d6a49fe0b9a2d482773dd2e9bb36cd7f")},
+                {  267000, uint256S("0xdc3ecb790c5554c8c8a2c219933d54a28c563aa2a9cf78978bd8c532cd9be24b")}
             }
         };
 
         chainTxData = ChainTxData{
-            // Data from rpc: getchaintxstats 24700 98a98f72724b339cb867aa09d2b55a4e9c09e5075b7477f9eccb724c22f529ba
-            /* nTime    */ 1610666666,
-            /* nTxCount */ 0,
-            /* dTxRate  */ 0
+            // Data from rpc: getchaintxstats 267000 dc3ecb790c5554c8c8a2c219933d54a28c563aa2a9cf78978bd8c532cd9be24b
+            /* nTime    */ 1617055024,
+            /* nTxCount */ 287199,
+            /* dTxRate  */ 0.04566663905245846
         };
 
         /* disable fallback fee on mainnet */

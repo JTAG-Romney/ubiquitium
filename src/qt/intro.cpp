@@ -125,19 +125,19 @@ Intro::Intro(QWidget *parent, uint64_t blockchain_size, uint64_t chain_state_siz
     ui->lblExplanation1->setText(ui->lblExplanation1->text()
         .arg(PACKAGE_NAME)
         .arg(m_blockchain_size)
-        .arg(2011)
+        .arg(2021)
         .arg(tr("Ubiquitium"))
     );
     ui->lblExplanation2->setText(ui->lblExplanation2->text().arg(PACKAGE_NAME));
 
     uint64_t pruneTarget = std::max<int64_t>(0, gArgs.GetArg("-prune", 0));
     requiredSpace = m_blockchain_size;
-    QString storageRequiresMsg = tr("At least %1 GB of data will be stored in this directory, and it will grow over time.");
+    QString storageRequiresMsg = tr("At least %1 MB of data will be stored in this directory, and it will grow over time.");
     if (pruneTarget) {
         uint64_t prunedGBs = std::ceil(pruneTarget * 1024 * 1024.0 / GB_BYTES);
         if (prunedGBs <= requiredSpace) {
             requiredSpace = prunedGBs;
-            storageRequiresMsg = tr("Approximately %1 GB of data will be stored in this directory.");
+            storageRequiresMsg = tr("Approximately %1 MB of data will be stored in this directory.");
         }
         ui->lblExplanation3->setVisible(true);
     } else {
@@ -266,7 +266,7 @@ void Intro::setStatus(int status, const QString &message, quint64 bytesAvailable
         QString freeString = tr("%n GB of free space available", "", bytesAvailable/GB_BYTES);
         if(bytesAvailable < requiredSpace * GB_BYTES)
         {
-            freeString += " " + tr("(of %n GB needed)", "", requiredSpace);
+            freeString += " " + tr("(of %n MB needed)", "", requiredSpace);
             ui->freeSpace->setStyleSheet("QLabel { color: #800000 }");
         } else {
             ui->freeSpace->setStyleSheet("");

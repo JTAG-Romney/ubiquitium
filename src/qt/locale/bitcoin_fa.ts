@@ -1060,7 +1060,7 @@
         <translation>%1 کیلوبایت</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 مگابایت</translation>
     </message>
     <message>

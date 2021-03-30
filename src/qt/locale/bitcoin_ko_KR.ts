@@ -881,7 +881,7 @@
         <translation>프로그램이 처음으로 실행되고 있습니다. %1가 어디에 데이터를 저장할지 선택할 수 있습니다. </translation>
     </message>
     <message>
-        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2MB) starting with the earliest transactions in %3 when %4 initially launched.</source>
         <translation>확인을 클릭하면 %1은 모든 %4블록 체인 (%2GB) 장부를 %3 안에 다운로드하고 처리하기 시작합니다.  이는 %4가 시작될 때 생성된 가장 오래된 트랜잭션부터 시작합니다.</translation>
     </message>
     <message>
@@ -905,11 +905,11 @@
         <translation>라이트코인</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
         <translation>최소 %1 GB의 데이터가 이 디렉토리에 저장되며 시간이 지남에 따라 증가할 것입니다.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
         <translation>약 %1 GB의 데이터가 이 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
@@ -930,10 +930,10 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB 사용가능</numerusform></translation>
+        <translation><numerusform>%n MB 사용가능</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(%n GB가 필요)</numerusform></translation>
     </message>
 </context>
@@ -1566,7 +1566,7 @@
         <translation>%1 킬로바이트</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 메가바이트</translation>
     </message>
     <message>
@@ -3319,7 +3319,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>%s 손상되었고 복구가 실패하였습니다</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
+        <source>-maxmempool must be at least %d GB</source>
         <translation>-maxmempool은 최소한 %d MB 이어야 합니다</translation>
     </message>
     <message>

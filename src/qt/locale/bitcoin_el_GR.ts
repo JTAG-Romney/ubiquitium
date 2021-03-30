@@ -766,11 +766,11 @@
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform><numerusform>%n GB ελεύθερου χώρου διαθέσιμα</numerusform></translation>
+        <translation><numerusform>%n MB ελεύθερου χώρου διαθέσιμα</numerusform><numerusform>%n MB ελεύθερου χώρου διαθέσιμα</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(από το %n GB που απαιτείται)</numerusform><numerusform>(από τα %n GB που απαιτούνται)</numerusform></translation>
+        <source>(of %n MB needed)</source>
+        <translation><numerusform>(από το %n MB που απαιτείται)</numerusform><numerusform>(από τα %n MB που απαιτούνται)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -1158,8 +1158,8 @@
         <translation>%1 KB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
-        <translation>%1 MB</translation>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>%1 GB</source>

@@ -439,7 +439,7 @@
         <translation>%s मा क्षति, बचाव विफल भयो</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
+        <source>-maxmempool must be at least %d GB</source>
         <translation>-maxmempool कम्तिमा %d MB को हुनुपर्छ ।</translation>
     </message>
     <message>

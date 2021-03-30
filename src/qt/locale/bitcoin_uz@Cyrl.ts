@@ -698,7 +698,7 @@
         <translation>%1 КБ</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 МБ</translation>
     </message>
     <message>

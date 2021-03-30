@@ -799,12 +799,12 @@
         <translation>Биткоин</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Най малко %1 GB данни ще бъдат запаметени в тази директория, и ще нарастват през времето.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Най малко %1 MB данни ще бъдат запаметени в тази директория, и ще нарастват през времето.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Около %1 GB данни ще бъдат запаметени в тази директория.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Около %1 MB данни ще бъдат запаметени в тази директория.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1204,7 +1204,7 @@
         <translation>%1 Килобайт</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 Мегабайт</translation>
     </message>
     <message>

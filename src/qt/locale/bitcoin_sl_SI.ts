@@ -884,12 +884,12 @@
         <translation>Ubiquitium</translation>
     </message>
     <message>
-        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>Vsaj %1 GB podatkov bo shranjenih v tem direktoriju, velikost podatkov pa bo s časom naraščala.</translation>
+        <source>At least %1 MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Vsaj %1 MB podatkov bo shranjenih v tem direktoriju, velikost podatkov pa bo s časom naraščala.</translation>
     </message>
     <message>
-        <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>Približno %1 GB podatkov bo shranjenih v tem direktoriju.</translation>
+        <source>Approximately %1 MB of data will be stored in this directory.</source>
+        <translation>Približno %1 MB podatkov bo shranjenih v tem direktoriju.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Ubiquitium block chain.</source>
@@ -912,7 +912,7 @@
         <translation><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform></translation>
     </message>
     <message numerus="yes">
-        <source>(of %n GB needed)</source>
+        <source>(of %n MB needed)</source>
         <translation><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform></translation>
     </message>
 </context>
@@ -1449,7 +1449,7 @@
         <translation>%1 KiB</translation>
     </message>
     <message>
-        <source>%1 MB</source>
+        <source>%1 GB</source>
         <translation>%1 MiB</translation>
     </message>
     <message>
@@ -2798,8 +2798,8 @@
         <translation>%s razvijalci</translation>
     </message>
     <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool mora biti vsaj %d MB</translation>
+        <source>-maxmempool must be at least %d GB</source>
+        <translation>-maxmempool mora biti vsaj %d GB</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
